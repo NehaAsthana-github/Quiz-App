@@ -1,0 +1,28 @@
+[
+    {
+        "tittle":"'OS' computer abbreviation usually means?",
+        "options":["order of significance","open software","operating system","none of these"],
+        "correctOptionIndex":"2"
+    },
+    {
+        "tittle":"Most mordern TV's draw power even if turned off.The circut the power is used in dose",
+        "options":["sound","Remote control","Color balance","High voltage"],
+        "correctOptionIndex":"1" 
+    },
+    {
+        "tittle":"Which motor is not suitable for use as a DC machine?",
+        "options":["Permanent manage motor","Series motor","Squrrel cage motor","synchronous motor"],
+        "correctOptionIndex":"2" 
+
+    },
+    {
+        "tittle":"INI extension refers usually to what kind of file?",
+        "options":["Image file","System file","Hypertext related file","None of these"],
+        "correctOptionIndex":"2"
+    },
+    {
+        "tittle":"which consists of two plates separated by a dielectric and can store a charge?",
+        "options":["capacitor","Inductor","Transistor","Relay"],
+        "correctOptionIndex":"0"
+    }
+]
