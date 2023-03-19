@@ -5,7 +5,7 @@ import  QuestionList from "../data/questions.json";
 import QuizResult from "./QuizResult.js";
 import Question from "./Question.js";
 // import { useState } from "react";
-function QuizScreen(retry){
+function QuizScreen({retry}){
     const[currentQuestionIndex,setcurrentQuestionIndex]= useState(0);
     const [markedAnswers,setMarkedAnswers]= useState(new Array(QuestionList.length));
     const isQuestionEnd=currentQuestionIndex===QuestionList.length;
@@ -38,7 +38,7 @@ return (
             <Question
             question={QuestionList[currentQuestionIndex]}
             totalQuestions={QuestionList.length}
-            currentQuestion={currentQuestionIndex+1}
+            currentQuestion={currentQuestionIndex}
             setAnswer={(index)=>{
                 setMarkedAnswers((arr)=>{
                     let newArr=[...arr];

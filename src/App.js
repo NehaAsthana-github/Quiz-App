@@ -21,9 +21,7 @@ return(
   )
 }
 </div>
-<div>
-  Hii
-</div>
+
 </>
 );
 }
